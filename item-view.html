@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lets Track!</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<div class="task-main-cont">
+		<div class="change-view-cont">
+			<button class="change-view-btn button is-primary">
+				<a href="/home/fay/Code-Projects/daily_tracker_app/index.html">Home</a>
+			</button>
+		</div>
+
+		<div class="task-secondary-cont">
+			
+			<div class="label-name-cont">
+				<h2 class="label-name title is-1">Walked</h2>
+			</div>
+
+			<div class="new-item-form-cont">
+				<form class="new-item-form">
+					<label for="new-item" class="title is-4">Did you Walk today?</label><br>
+
+					<div class="radio-cont">
+						<div class="yes">
+							<input type="radio" id="yes" name="boolean" value="yes">
+							<label for="yes" class="radio">Yes</label>
+						</div>
+
+						<div class="no">
+							<input type="radio" id="no" name="boolean" value="no" checked>
+							<label for="no" class="radio">No</label>
+						</div>
+					</div>
+
+					<div class="submit-item-btn">
+						<button class="button is-primary">Submit</button>
+					</div>
+				</form>
+			</div>
+
+			<div class="past-task-cont">
+				<ul>
+					<li>Dec. 16 No</li>
+					<li>Dec. 15 Yes</li>
+					<li>Dec. 14 Yes</li>
+					<li>Dec. 13 No</li>
+				</ul>
+			</div>
+
+		</div>
+		
+	</div>
+
+	<script type="text/javascript" src="view.js"></script>
+</body>
+</html>

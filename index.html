@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lets Track!</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<div class="main-cont">
+	
+		<div class="header-cont hero is-primary-color">
+			<header>
+				<div class="icon-cont">
+					<button class="icon-button" onclick="openNav()">
+						<img src="./pencil.png" alt="Pencil">
+					</button>
+				</div>
+			</header>
+		</div>
+
+		<div class="main-view-cont">
+			
+		</div>
+	</div>
+
+
+	<!-- Side Bar -->
+	<div id="mySidenav" class="sidenav">
+		 <a href="javascript:void(0)" class="closebtn white" onclick="closeNav()">&times;</a>
+		 <div>
+			<p class="white title is-4">Add New Label For Goal/Habit</p>
+		</div>
+		<div>
+			<input id="new-label-input" type="text" name="new-label">
+			<button id="new-label-submit-btn" onclick="createNewLabel()">Submit</button>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
+

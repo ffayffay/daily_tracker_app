@@ -1,0 +1,168 @@
+body,
+html {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.main-cont {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+/*----Header----*/
+
+.header-cont {
+    width: 100%;
+    height: 6%;
+    display: flex;
+}
+
+header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.is-primary-color {
+    background-color: #8256D8;
+}
+
+.white {
+    color: white;
+}
+
+.btn-font {
+    color: white;
+    font-weight: bold;
+}
+
+.icon-cont {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.icon-button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    height: 100%;
+}
+
+img{
+    height: 100%;
+}
+
+/*----Main View----*/
+
+.main-view-cont {
+    height: 94%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.label-name-cont {
+    width: 40%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*----Side Bar----*/
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/*----Entry View----*/
+
+.entry-view-cont {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-btn-cont {
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.entry-cont {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.entry-name-cont,
+.btn-cont {
+    height: 15%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.entry-btn-cont {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
